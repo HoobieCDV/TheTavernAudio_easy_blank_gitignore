@@ -526,8 +526,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: "FMOD/fmod_zaj\u0119cia/fmod_zaj\u0119cia.fspro"
-  sourceBankPath: "FMOD/fmod_zaj\u0119cia/Build"
+  sourceProjectPath: "Assets/FMOD/fmod_zaj\u0119cia/fmod_zaj\u0119cia.fspro"
+  sourceBankPath: "Assets/FMOD/fmod_zaj\u0119cia/Build"
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 1
   ShowBankRefreshWindow: 1

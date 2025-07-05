@@ -1,5 +1,52 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7990013853166109102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Outside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Outside
+  Guid:
+    Data1: 335478882
+    Data2: 1162841401
+    Data3: 591220656
+    Data4: 1536619417
+  Banks:
+  - {fileID: -1620162372852314324}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-1620162372852314324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: "Assets/FMOD/fmod_zaj\u0119cia/Build/Desktop/Master.bank"
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638873155668166870
+  FileSizes:
+  - Name: Desktop
+    Value: 5494752
+  Exists: 1
 --- !u!114 &-1607501998367575926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19,7 +66,7 @@ MonoBehaviour:
     Data3: 1223322260
     Data4: -363165871
   Banks:
-  - {fileID: 6208052317323264764}
+  - {fileID: -1620162372852314324}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -40,41 +87,23 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 2576719264834365705}
-  - {fileID: 6208052317323264764}
+  - {fileID: 5207942923150821583}
+  - {fileID: -1620162372852314324}
   EditorEvents:
   - {fileID: -1607501998367575926}
   - {fileID: 3826589529202505485}
   - {fileID: 8624817358996999709}
   - {fileID: 4864224826116499419}
   - {fileID: 7193790171379768431}
+  - {fileID: -7990013853166109102}
+  - {fileID: 5072651907252891379}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 6208052317323264764}
+  - {fileID: -1620162372852314324}
   StringsBanks:
-  - {fileID: 2576719264834365705}
-  cacheTime: 638855010637718270
+  - {fileID: 5207942923150821583}
+  cacheTime: 638873155668177010
   cacheVersion: 131617
---- !u!114 &2576719264834365705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: "FMOD/fmod_zaj\u0119cia/Build/Desktop/Master.strings.bank"
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638855010637718270
-  FileSizes:
-  - Name: Desktop
-    Value: 1290
-  Exists: 1
 --- !u!114 &3826589529202505485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94,7 +123,7 @@ MonoBehaviour:
     Data3: -296418882
     Data4: 692273214
   Banks:
-  - {fileID: 6208052317323264764}
+  - {fileID: -1620162372852314324}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -122,7 +151,7 @@ MonoBehaviour:
     Data3: 936975005
     Data4: -2132013154
   Banks:
-  - {fileID: 6208052317323264764}
+  - {fileID: -1620162372852314324}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -130,6 +159,53 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 51000
+--- !u!114 &5072651907252891379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Door_single
+  m_EditorClassIdentifier: 
+  Path: event:/Door_single
+  Guid:
+    Data1: 1962433541
+    Data2: 1339954639
+    Data3: -478021711
+    Data4: 1775177352
+  Banks:
+  - {fileID: -1620162372852314324}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5207942923150821583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: "Assets/FMOD/fmod_zaj\u0119cia/Build/Desktop/Master.strings.bank"
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638873155668177010
+  FileSizes:
+  - Name: Desktop
+    Value: 1218
+  Exists: 1
 --- !u!114 &5899351105136055639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,26 +232,6 @@ MonoBehaviour:
   - stone
   - wood
   Exists: 1
---- !u!114 &6208052317323264764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: "FMOD/fmod_zaj\u0119cia/Build/Desktop/Master.bank"
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638855010637703218
-  FileSizes:
-  - Name: Desktop
-    Value: 5471232
-  Exists: 1
 --- !u!114 &7193790171379768431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,7 +251,7 @@ MonoBehaviour:
     Data3: -1320394840
     Data4: 1417281300
   Banks:
-  - {fileID: 6208052317323264764}
+  - {fileID: -1620162372852314324}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -222,7 +278,7 @@ MonoBehaviour:
     Data3: -1464860790
     Data4: -966422541
   Banks:
-  - {fileID: 6208052317323264764}
+  - {fileID: -1620162372852314324}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
