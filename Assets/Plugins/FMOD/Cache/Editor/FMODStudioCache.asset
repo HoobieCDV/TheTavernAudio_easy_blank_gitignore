@@ -27,6 +27,34 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-2860453276115192966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DoorsEvent
+  m_EditorClassIdentifier: 
+  Path: event:/DoorsEvent
+  Guid:
+    Data1: 1962433541
+    Data2: 1339954639
+    Data3: -478021711
+    Data4: 1775177352
+  Banks:
+  - {fileID: -1620162372852314324}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6416372270556154209}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 910
 --- !u!114 &-1620162372852314324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,10 +70,10 @@ MonoBehaviour:
   Path: "Assets/FMOD/fmod_zaj\u0119cia/Build/Desktop/Master.bank"
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638873155668166870
+  lastModified: 638874013076782931
   FileSizes:
   - Name: Desktop
-    Value: 5494752
+    Value: 5604320
   Exists: 1
 --- !u!114 &-1607501998367575926
 MonoBehaviour:
@@ -96,14 +124,42 @@ MonoBehaviour:
   - {fileID: 4864224826116499419}
   - {fileID: 7193790171379768431}
   - {fileID: -7990013853166109102}
-  - {fileID: 5072651907252891379}
+  - {fileID: -2860453276115192966}
+  - {fileID: 1249844006519844212}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1620162372852314324}
   StringsBanks:
   - {fileID: 5207942923150821583}
-  cacheTime: 638873155668177010
+  cacheTime: 638874013076792946
   cacheVersion: 131617
+--- !u!114 &1249844006519844212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gnome
+  m_EditorClassIdentifier: 
+  Path: event:/Gnome
+  Guid:
+    Data1: 1742367787
+    Data2: 1241815056
+    Data3: 946212267
+    Data4: -1367913944
+  Banks:
+  - {fileID: -1620162372852314324}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5450
 --- !u!114 &3826589529202505485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,33 +215,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 51000
---- !u!114 &5072651907252891379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Door_single
-  m_EditorClassIdentifier: 
-  Path: event:/Door_single
-  Guid:
-    Data1: 1962433541
-    Data2: 1339954639
-    Data3: -478021711
-    Data4: 1775177352
-  Banks:
-  - {fileID: -1620162372852314324}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &5207942923150821583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,10 +230,10 @@ MonoBehaviour:
   Path: "Assets/FMOD/fmod_zaj\u0119cia/Build/Desktop/Master.strings.bank"
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638873155668177010
+  lastModified: 638874013076792946
   FileSizes:
   - Name: Desktop
-    Value: 1218
+    Value: 1482
   Exists: 1
 --- !u!114 &5899351105136055639
 MonoBehaviour:
@@ -231,6 +260,32 @@ MonoBehaviour:
   Labels:
   - stone
   - wood
+  Exists: 1
+--- !u!114 &6416372270556154209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DoorsEvent/Doors
+  m_EditorClassIdentifier: 
+  Name: Doors
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2344792947
+    data2: 279603580
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Open
+  - Close
   Exists: 1
 --- !u!114 &7193790171379768431
 MonoBehaviour:
